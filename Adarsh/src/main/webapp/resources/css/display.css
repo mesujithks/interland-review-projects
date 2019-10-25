@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+table {
+	border: 1px solid black;
+	width: 100%;
+	margin-top: 30px;
+}
+
+table tr, th, td {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table th {
+	height: 30px;
+	background-color: #61b0ff;
+}
+
+#id_title {
+	text-align: center;
+	font-size: 50px;
+	color: #0a51c4;
+}
+
+#id_edit_th, #id_delete_th {
+	width: 100px;
+}
+
+button {
+	width: 100%;
+}
+
+#buttonid_row {
+	align: right;
+	float: right;
+	width: 100px;
+}

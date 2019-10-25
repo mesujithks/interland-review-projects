@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="RegisterUser" table="studentdetails">
+<id name="id" column="id" ><generator class="increment"></generator></id>
+<property name="course"></property>
+<property name="mobile"></property>
+<property name="fname"></property>
+<property name="mname"></property>
+<property name="lname"></property>
+<property name="sex"></property>
+<property name="country"></property>
+<property name="currently"></property>
+<property name="city"></property>
+<property name="state"></property>
+
+<join table="login">
+<key column="fk"></key>
+<component name="ud1" class="RegisterUser1">
+<property name="email"></property>
+<property name="password"></property>
+
+</component>
+
+</join>
+
+
+
+
+</class>
+
+
+
+</hibernate-mapping>

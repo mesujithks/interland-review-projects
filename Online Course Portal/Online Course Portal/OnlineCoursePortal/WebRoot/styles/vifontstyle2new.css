@@ -1,0 +1,507 @@
+/* CSS Document */
+<style type="text/css">
+
+html, body{
+	margin:0px;
+	padding:0px;
+	/*font-size:70%;*/
+}
+.button{
+	background-color:#3b5998;
+	border-bottom-color:#0e1f5b;
+	border-right-color:#0e1f5b;
+	border-left-color:#d9dfea;
+	border-top-color:#d9dfea;
+	border-style:solid;
+	border-width:thin;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	padding:2px;
+}
+
+
+.textbox{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	border:1px solid #3b5998;
+}
+.photo{
+	background-color:#e5eff9;
+	padding:2px;
+	border:1px solid #a3b5d3;
+}
+.cancel{
+	background-color:#f0f0f0;
+	border-bottom-color:#666666;
+	border-right-color:#666666;
+	border-left-color:#e7e7e7;
+	border-top-color:#e7e7e7;
+	border-style:solid;
+	border-width:thin;
+	font:Arial, Helvetica, sans-serif;
+	color:#333333;
+	font-size:12px;
+	padding:2px;
+}
+.companybutton{
+	background-color:#f0f0f0;
+	font-size:14px;
+	border-width: 1px thin;
+	border-style:solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	margin-left:3px;
+	padding:5px;
+
+}
+.arialLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+.VerdanaLarge{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+.arialVeryLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}
+.VerdanaVeryLarge{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.arialbold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+.Verdanabold{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+.arialbold_blue{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#0099FF;
+}
+
+.Verdanabold_blue{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#0099FF;
+}
+
+.Verdanabold_blue{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#0099FF;
+}
+.arialbold_blueL{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#0099FF;
+}
+
+.Verdanabold_blueL{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#0099FF;
+}
+
+.Verdanabold_blueL20{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#0099FF;
+}
+.arial12Black{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+. Verdana12Black{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+.arial10Black{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.Verdana10Black{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.arial13Black{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+.Verdana13Black{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+
+.arial12Ash{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666666;
+}
+.arial12liteAsh{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#e4e5e6;
+}
+.vvvl12liteAsh{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#999999;
+}
+.Verdana12Ash{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666666;
+}
+.Verdana10Ash{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666666;
+}
+
+.Verdana10Ash999{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999999;
+}
+
+.Verdana12darkgray {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333333;
+}
+.arial13Ash {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#666666;
+}
+.VerdanaboldAsh{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#666666;
+}
+.arialboldAsh12{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666;
+}
+.VerdanaboldAsh12{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666;
+}
+
+.VerdanablckAsh12{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color: #000000;
+}
+
+.arialboldDarkgray{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#333333;
+}
+.VerdanaboldDarkgray{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#333333;
+}
+
+.Verdanabold15news{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#000000;
+}
+.ariallargeAsh{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#666666;
+}
+.arialboldSiRed{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#990000;
+}
+
+.ariallargeSiRed{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#990000;
+}
+.arial10Warning{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FF0000;
+}
+.arial12Warning{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FF0000;
+}
+.arial12Green{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#006600;
+}
+.arialGreenbold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#006600;
+}
+.arial10Green{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#006600;
+}
+.paddingTopBtm{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.paddingTop{
+	padding-top:10px;
+}
+.paddingBtm{
+	padding-bottom:10px;
+}
+.borderbottom{
+	border-bottom:1px solid #e5eff9;
+	}
+a:link {
+	color:#006699;
+	text-decoration:none;
+}
+a:visited {
+	color:#006699;
+	text-decoration: none;
+}
+a:hover {
+	color:#990000;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.topStyle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666666;
+	border:0px;
+}
+.blueBorder{
+	border:2px solid #e5eff9;
+	}
+.mouse{
+	 cursor:pointer;
+	 }
+.trans{
+	opacity: .85;
+    filter: alpha(opacity=85);
+	}
+.dipintext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color:#990000;
+
+	}
+
+	.textboxnew{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	border:1px solid #3b5998;
+	padding-bottom:2px;
+	padding-top:2px;
+	padding-left:3px;
+
+}
+
+.Ask{
+color:#0a9ef2;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+}
+
+.boxborder{
+border:1px solid #abc2d5;
+color:#333333;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+}
+
+.org{
+color:#ff6c00;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+font-weight:bold;
+}
+
+
+.photonewcommunity{
+	padding:2px;
+	border:1px solid #d5e0ea;
+}
+.myriadpro{
+	font-family: "myriad Pro";
+	font-size:28px;
+	font-weight: normal;
+ 	color: #000000;
+}
+
+.arialbold14{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold; color:#000000
+}
+
+.counselors{
+	padding:2px;
+	border:1px solid #d5e0ea; color:#999999; font-size:11px;
+}
+
+.myriadpro14{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: normal;
+ 	color: #000000;
+}
+
+
+.myriadpro18{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-weight: normal;
+ 	color: #000000;
+}
+.myriadpro16{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight: normal;
+ 	color: #000000;
+}
+
+
+.myriadpro14red{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+ 	color:#ce0000 ;
+}
+
+.myriadpro14green{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+ 	color: #589e4c;
+}
+
+.myriadpro14lrd{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+ 	color: #c34812;
+}
+.myriadpro14blue{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+ 	color: #234e88;
+}
+
+.myriadpro14lrd2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+ 	color: #d85d20;
+}
+
+.Georgia12{
+	font-family: Georgia, Times, serif;
+	font-size:18px;
+	font-weight: normal;
+ 	color: #000000 ;
+}
+
+
+
+
+.Georgia13{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+	font-weight: bold;
+ 	color: #000000 ;
+}
+.Georgia14{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight: bold;
+ 	color: #000000 ;
+}
+
+.Georgia16{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight: bold;
+ 	color: #000000 ;
+}
+
+
+.Georgia118{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-weight: bold;
+ 	color: #000000 ;
+}
+
+h1{ padding:0px; margin:0px;}
+
+
+ .Georgia16_red{
+	font-family: Georgia, Times, serif;
+	font-size:20px;
+	font-weight: bold;
+ 	color: #9a0000 ;
+}
+
+.Georgia118{
+	font-family: Georgia, Times, serif;
+	font-size:20px;
+	font-weight: bold;
+ 	color: #000000 ;
+}
+
+
+
+</style>

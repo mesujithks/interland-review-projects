@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="user">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="UserIdType" />
+				<xs:element name="name" type="NameType" />
+				<xs:element name="date" type="DateType" />
+				<xs:element name="age" type="xs:int" minOccurs="0" />
+				<xs:element name="gender" type="GenderType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="DateType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0-2][0-9]|(3)[0-1])(\-)(((0)[0-9])|((1)[0-2]))(\-)\d{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="UserIdType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[1-9]\d{2,5}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="NameType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="6" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="GenderType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="male|female" />
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

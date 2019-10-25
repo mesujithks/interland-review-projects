@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+input:not(#submitid){
+	height:50px;
+	width:80%;
+}
+
+#submitid{
+	width:25%;
+	height:40px;
+}
+
+#topid{
+	margin-top:50px;
+}
+#titleid{
+	font-size:50px;
+}
