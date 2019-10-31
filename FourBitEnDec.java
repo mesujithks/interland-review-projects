@@ -16,7 +16,7 @@ class FourBitEnDec {
     byte[] encode(String txt, int bit) {
         int length = txt.length();
         int len = (int)Math.ceil((length*bit)/8);
-        len = (length%2 == 0)?len:++len;
+        len = (length % 2 == 0) ? len : ++len;
         byte encoded[] = new byte[len];
         char str[] = new char[length];
         txt.getChars(0, length, str, 0);
@@ -62,6 +62,8 @@ class FourBitEnDec {
             tempInt = tempInt.valueOf(strBinary.substring(i, i + bit), 2);
             strText = strText + toChar(tempInt.intValue());
         }
+        //if actual string length is 9 then cut the last appended 0.
+        strText = strText.substring(0, strText.length()-1);
         return strText;
     }
 
@@ -86,17 +88,17 @@ class FourBitEnDec {
     char toChar(int val){
 	    char ch = '0';
 	    switch(val){
-		case 0:ch='0';break; 
-            	case 1:ch='1';break;
-		case 2:ch='2';break; 
-            	case 3 :ch='3';break;
-		case 4:ch='4';break; 
-            	case 5 :ch='5';break;
-		case 6:ch='6';break; 
-            	case 7 :ch='7';break;
-		case 8:ch='8';break; 
-            	case 9 :ch='9';break;
-            	default:ch='0';
+		    case 0:ch='0';break; 
+            case 1:ch='1';break;
+		    case 2:ch='2';break; 
+            case 3 :ch='3';break;
+		    case 4:ch='4';break; 
+            case 5 :ch='5';break;
+		    case 6:ch='6';break; 
+            case 7 :ch='7';break;
+		    case 8:ch='8';break; 
+            case 9 :ch='9';break;
+            default:ch='0';
        	}
 	return ch;
     }
