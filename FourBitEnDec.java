@@ -6,7 +6,7 @@ class FourBitEnDec {
 
     public static void main(String[] args){
         String test ="123456789";
-        SixBitEnDec obj = new SixBitEnDec();
+        FourBitEnDec obj = new FourBitEnDec();
         byte[] enc = obj.encode(test,FOUR_BIT);
         System.out.println("Input: "+test);
         System.out.println("Current bytes length: "+test.getBytes().length+"\nAfter encode bytes length: "+enc.length);
